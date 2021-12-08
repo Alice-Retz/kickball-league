@@ -17,11 +17,9 @@ export default function TeamDetail({ match }) {
 
 	return (
 		<>
-			<p>
-				<Link to='/teams' className='App-link'>
-					Back to Teams
-				</Link>
-			</p>
+			<Link to='/teams' className='App-link'>
+				Back to Teams
+			</Link>
 			<p>
 				<h1>{team.name}</h1>
 			</p>
@@ -33,7 +31,8 @@ export default function TeamDetail({ match }) {
 				{team.players.map((player) => {
 					return (
 						<li key={player.id}>
-							{player.position} - {player.name}
+							{player.position} -{' '}
+							<Link to={`/players/${player.id}`}>{player.name}</Link>
 						</li>
 					);
 				})}

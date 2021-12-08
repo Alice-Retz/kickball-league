@@ -7,7 +7,7 @@ export async function getPlayers() {
 
 export async function getPlayerById(id) {
 	const request = await client
-		.from('player')
+		.from('players')
 		.select('*, teams (*)')
 		.match({ id })
 		.single();

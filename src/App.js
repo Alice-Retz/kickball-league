@@ -8,6 +8,8 @@ import './App.css';
 import Home from './Views/Home/Home';
 import TeamList from './Views/Teams/TeamList';
 import TeamDetail from './Views/Teams/TeamDetail';
+import PlayerDetail from './Views/Players/PlayerDetail';
+import PlayerList from './Views/Players/PlayerList';
 
 function App() {
 	return (
@@ -20,6 +22,9 @@ function App() {
 					</NavLink>{' '}
 					<NavLink to='/teams' className='App-Link' exact>
 						Teams
+					</NavLink>{' '}
+					<NavLink to='/players' className='App-Link' exact>
+						Players
 					</NavLink>{' '}
 				</header>
 				<Switch>
