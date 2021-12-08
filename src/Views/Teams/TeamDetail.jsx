@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { getTeamById } from '../../Services/teams';
 
-export default function TeamDetail({ label, match }) {
+export default function TeamDetail({ match }) {
 	const { teamId } = match.params;
 	const [team, setTeam] = useState(null);
 	const [loading, setLoading] = useState(true);

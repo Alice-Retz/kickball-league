@@ -24,8 +24,10 @@ function App() {
 				</header>
 				<Switch>
 					<Route exact path='/' component={Home} />
-					<Route path='/teams' component={TeamList} />
-					<Route path='/teams/:teamId' component={TeamDetail} />
+					<Route exact path='/teams' component={TeamList} />
+					<Route exact path='/teams/:teamId' component={TeamDetail} />
+					<Route exact path='/players' component={PlayerList} />
+					<Route exact path='/players/:playerId' component={PlayerDetail} />
 				</Switch>
 				<footer>Footer</footer>
 			</Router>
