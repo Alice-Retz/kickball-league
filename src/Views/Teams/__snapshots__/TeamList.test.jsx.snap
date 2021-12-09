@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays a list of teams 1`] = `
+<div>
+  <h1>
+    Teams:
+  </h1>
+  <ul>
+    <li>
+      <a
+        href="/teams/2"
+      >
+        Big Easy Tigers
+      </a>
+    </li>
+    <li>
+      <a
+        href="/teams/3"
+      >
+        Cajun Country 'Gators
+      </a>
+    </li>
+    <li>
+      <a
+        href="/teams/4"
+      >
+        Red Stick Tigers
+      </a>
+    </li>
+  </ul>
+</div>
+`;
