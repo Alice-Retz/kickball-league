@@ -27,14 +27,6 @@ export default function TeamForm({
 				onChange={(target) => setCity(target.value)}
 			/>
 
-			<label htmlFor='city'>City:</label>
-			<input
-				id='city'
-				name='city'
-				type='text'
-				value={city}
-				onChange={(target) => setCity(target.value)}
-			/>
 			<label htmlFor='state'>State:</label>
 			<input
 				id='state'

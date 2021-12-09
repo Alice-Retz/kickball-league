@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useHistory } from 'react-router';
-import TeamForm from '../../Compnents/Teams/TeamForm';
+import TeamForm from '../../Components/Teams/TeamForm';
 import { createTeam } from '../../Services/teams';
 
 export default function TeamAdd() {

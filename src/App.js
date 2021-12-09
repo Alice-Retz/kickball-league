@@ -11,6 +11,7 @@ import TeamDetail from './Views/Teams/TeamDetail';
 import PlayerDetail from './Views/Players/PlayerDetail';
 import PlayerList from './Views/Players/PlayerList';
 import TeamAdd from './Views/Teams/TeamAdd';
+import PlayerAdd from './Views/Players/PlayerAdd';
 
 function App() {
 	return (
