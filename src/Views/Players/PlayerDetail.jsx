@@ -20,9 +20,8 @@ export default function PlayerDetail({ match }) {
 			<Link to='/players' className='App-link'>
 				Back to Players
 			</Link>
-			<p>
-				<h1>{player.name}</h1>
-			</p>
+
+			<h1>{player.name}</h1>
 			<ul>
 				<Link to={`/teams/${player.team_id}`} className='App-link'>
 					<li>{player.teams.name}</li>

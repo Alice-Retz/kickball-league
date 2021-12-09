@@ -1,14 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import { MemoryRouter } from 'react-router';
+import { MemoryRouter } from 'react-router-dom';
 import PlayerDetail from './PlayerDetail';
 
 it('should render the details of a designated player', async () => {
-	render(
+	const { container } = render(
 		<MemoryRouter>
-			<PlayerDetail
-				label='The value of the label prop...'
-				match={{ params: { playerId: '3' } }}
-			/>
+			<PlayerDetail match={{ params: { playerId: '3' } }} />
 		</MemoryRouter>
 	);
 
@@ -17,4 +14,5 @@ it('should render the details of a designated player', async () => {
 	const playerName = await screen.findByText('Mike Comeaux', { exact: false });
 
 	expect(playerName).toBeInTheDocument();
+	expect(container).toMatchSnapshot();
 });

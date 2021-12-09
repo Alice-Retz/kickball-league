@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the details of a designated player 1`] = `
+<div>
+  <a
+    class="App-link"
+    href="/players"
+  >
+    Back to Players
+  </a>
+  <h1>
+    Mike Comeaux
+  </h1>
+  <ul>
+    <a
+      class="App-link"
+      href="/teams/4"
+    >
+      <li>
+        Red Stick Tigers
+      </li>
+    </a>
+    <li>
+      left winger
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays a list of players 1`] = `
+<div>
+  <h1>
+    Players:
+  </h1>
+  <ul>
+    <li>
+      <a
+        href="/players/4"
+      >
+        Babette Hebert
+      </a>
+    </li>
+    <li>
+      <a
+        href="/players/1"
+      >
+        Boudreaux Doucet
+      </a>
+    </li>
+    <li>
+      <a
+        href="/players/2"
+      >
+        Larry Broussard
+      </a>
+    </li>
+    <li>
+      <a
+        href="/players/5"
+      >
+        Maggie Arcenaux
+      </a>
+    </li>
+    <li>
+      <a
+        href="/players/3"
+      >
+        Mike Comeaux
+      </a>
+    </li>
+    <li>
+      <a
+        href="/players/6"
+      >
+        Nicole Melançon
+      </a>
+    </li>
+  </ul>
+</div>
+`;

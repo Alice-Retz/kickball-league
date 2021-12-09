@@ -20,9 +20,7 @@ export default function TeamDetail({ match }) {
 			<Link to='/teams' className='App-link'>
 				Back to Teams
 			</Link>
-			<p>
-				<h1>{team.name}</h1>
-			</p>
+			<h1>{team.name}</h1>
 			<p>Team Detail: {teamId}</p>
 			<p>
 				From {team.city}, {team.state}
