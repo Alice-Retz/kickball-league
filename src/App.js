@@ -10,6 +10,7 @@ import TeamList from './Views/Teams/TeamList';
 import TeamDetail from './Views/Teams/TeamDetail';
 import PlayerDetail from './Views/Players/PlayerDetail';
 import PlayerList from './Views/Players/PlayerList';
+import TeamAdd from './Views/Teams/TeamAdd';
 
 function App() {
 	return (
@@ -30,8 +31,10 @@ function App() {
 				<Switch>
 					<Route exact path='/' component={Home} />
 					<Route exact path='/teams' component={TeamList} />
+					<Route exact path='/teams/add' component={TeamAdd} />
 					<Route exact path='/teams/:teamId' component={TeamDetail} />
 					<Route exact path='/players' component={PlayerList} />
+					<Route exact path='/players/add' component={PlayerAdd} />
 					<Route exact path='/players/:playerId' component={PlayerDetail} />
 				</Switch>
 				<footer>Footer</footer>
