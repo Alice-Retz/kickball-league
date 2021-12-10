@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays a list of teams 1`] = `
+<div>
+  <h1>
+    Teams:
+  </h1>
+  <a
+    class="App-link"
+    href="/teams/add"
+  >
+    Add a Team
+  </a>
+  <ul>
+    <li>
+      <a
+        href="/teams/2"
+      >
+        Big Easy Tigers
+      </a>
+       
+      <button
+        aria-label="Delete the Big Easy Tigers"
+        type="button"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        href="/teams/3"
+      >
+        Cajun Country 'Gators
+      </a>
+       
+      <button
+        aria-label="Delete the Cajun Country 'Gators"
+        type="button"
+      >
+        Delete
+      </button>
+    </li>
+    <li>
+      <a
+        href="/teams/4"
+      >
+        Red Stick Tigers
+      </a>
+       
+      <button
+        aria-label="Delete the Red Stick Tigers"
+        type="button"
+      >
+        Delete
+      </button>
+    </li>
+  </ul>
+</div>
+`;
