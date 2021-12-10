@@ -5,6 +5,12 @@ exports[`displays a list of players 1`] = `
   <h1>
     Players:
   </h1>
+  <a
+    class="App-link"
+    href="/players/add"
+  >
+    Add a Player
+  </a>
   <ul>
     <li>
       <a
@@ -12,6 +18,13 @@ exports[`displays a list of players 1`] = `
       >
         Babette Hebert
       </a>
+       
+      <button
+        aria-label="Delete the Babette Hebert"
+        type="button"
+      >
+        Delete
+      </button>
     </li>
     <li>
       <a
@@ -19,6 +32,13 @@ exports[`displays a list of players 1`] = `
       >
         Boudreaux Doucet
       </a>
+       
+      <button
+        aria-label="Delete the Boudreaux Doucet"
+        type="button"
+      >
+        Delete
+      </button>
     </li>
     <li>
       <a
@@ -26,6 +46,13 @@ exports[`displays a list of players 1`] = `
       >
         Larry Broussard
       </a>
+       
+      <button
+        aria-label="Delete the Larry Broussard"
+        type="button"
+      >
+        Delete
+      </button>
     </li>
     <li>
       <a
@@ -33,6 +60,13 @@ exports[`displays a list of players 1`] = `
       >
         Maggie Arcenaux
       </a>
+       
+      <button
+        aria-label="Delete the Maggie Arcenaux"
+        type="button"
+      >
+        Delete
+      </button>
     </li>
     <li>
       <a
@@ -40,6 +74,13 @@ exports[`displays a list of players 1`] = `
       >
         Mike Comeaux
       </a>
+       
+      <button
+        aria-label="Delete the Mike Comeaux"
+        type="button"
+      >
+        Delete
+      </button>
     </li>
     <li>
       <a
@@ -47,6 +88,13 @@ exports[`displays a list of players 1`] = `
       >
         Nicole Melançon
       </a>
+       
+      <button
+        aria-label="Delete the Nicole Melançon"
+        type="button"
+      >
+        Delete
+      </button>
     </li>
   </ul>
 </div>

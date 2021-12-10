@@ -15,7 +15,7 @@ export default function PlayerForm({
 				name='name'
 				type='text'
 				value={name}
-				onChange={(event) => setName(event.target.value)}
+				onChange={(e) => setName(e.target.value)}
 			/>
 
 			<label htmlFor='teamId'>Team ID:</label>
@@ -24,7 +24,7 @@ export default function PlayerForm({
 				name='team Id'
 				type='number'
 				value={teamId}
-				onChange={(target) => setTeamId(target.value)}
+				onChange={(e) => setTeamId(e.target.value)}
 			/>
 
 			<label htmlFor='teamId'>Position:</label>
@@ -33,7 +33,7 @@ export default function PlayerForm({
 				name='position'
 				type='text'
 				value={position}
-				onChange={(target) => setPosition(target.value)}
+				onChange={(e) => setPosition(e.target.value)}
 			/>
 			<button type='submit' aria-label='Add a player'>
 				Add

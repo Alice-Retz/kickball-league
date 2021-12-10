@@ -9,33 +9,30 @@ export default function TeamForm({
 }) {
 	return (
 		<form onSubmit={handleSubmit}>
-			<label htmlFor='name'>Name:</label>
+			<label htmlFor='name'>Name:</label>{' '}
 			<input
 				id='name'
 				name='name'
 				type='text'
 				value={name}
-				onChange={(event) => setName(event.target.value)}
-			/>
-
-			<label htmlFor='city'>City:</label>
+				onChange={(e) => setName(e.target.value)}
+			/>{' '}
+			<label htmlFor='city'>City:</label>{' '}
 			<input
 				id='city'
 				name='city'
 				type='text'
 				value={city}
-				onChange={(target) => setCity(target.value)}
-			/>
-
-			<label htmlFor='state'>State:</label>
+				onChange={(e) => setCity(e.target.value)}
+			/>{' '}
+			<label htmlFor='state'>State:</label>{' '}
 			<input
 				id='state'
 				name='state'
 				type='text'
 				value={state}
-				onChange={(target) => setState(target.value)}
-			/>
-
+				onChange={(e) => setState(e.target.value)}
+			/>{' '}
 			<button type='submit' aria-label='Add a team'>
 				Add
 			</button>

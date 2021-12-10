@@ -13,12 +13,13 @@ export default function PlayerAdd() {
 		event.preventDefault();
 
 		const response = await createPlayer({ name, teamId, position });
-		history.pushState(`/players/${response[0].id}`);
+		history.push(`/players/${response[0].id}`);
 	};
 
 	return (
 		<>
 			<fieldset>
+				<legend>Add a Player</legend>
 				<PlayerForm
 					name={name}
 					teamId={teamId}

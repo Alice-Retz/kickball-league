@@ -5,6 +5,12 @@ exports[`displays a list of teams 1`] = `
   <h1>
     Teams:
   </h1>
+  <a
+    class="App-link"
+    href="/teams/add"
+  >
+    Add a Team
+  </a>
   <ul>
     <li>
       <a
@@ -12,6 +18,13 @@ exports[`displays a list of teams 1`] = `
       >
         Big Easy Tigers
       </a>
+       
+      <button
+        aria-label="Delete the Big Easy Tigers"
+        type="button"
+      >
+        Delete
+      </button>
     </li>
     <li>
       <a
@@ -19,6 +32,13 @@ exports[`displays a list of teams 1`] = `
       >
         Cajun Country 'Gators
       </a>
+       
+      <button
+        aria-label="Delete the Cajun Country 'Gators"
+        type="button"
+      >
+        Delete
+      </button>
     </li>
     <li>
       <a
@@ -26,6 +46,13 @@ exports[`displays a list of teams 1`] = `
       >
         Red Stick Tigers
       </a>
+       
+      <button
+        aria-label="Delete the Red Stick Tigers"
+        type="button"
+      >
+        Delete
+      </button>
     </li>
   </ul>
 </div>
